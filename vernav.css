@@ -76,6 +76,11 @@ a{
 #viva:hover #vi{
     display: block;
 }
+@media(max-width:600px){
+    #cont{
+        width:20%;
+    }
+}
 
 
 

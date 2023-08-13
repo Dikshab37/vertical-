@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url(./image/360_F_535473874_OWCa2ohzXXNZgqnlzF9QETsnbrSO9pFS.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#cont{
+    background-color: rgba(255, 192, 203, 0.495);
+    height: 100vh;
+    width: 10%;
+}
+#nav{
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+}
+a{
+    text-decoration:none;
+    color: white;
+    padding: 1rem;
+    display: block;
+    border-bottom: 2px solid white;
+}
+/*#menu{
+    list-style-type: none;
+    padding: 0;
+    background-color: aquamarine;
+    position: relative;
+    display: none;
+}*/
+#drop{
+    position: relative;
+}
+#menu{
+    list-style-type: none;
+    padding: 0;
+    background-color: aquamarine;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+#drop:hover #menu{
+    display: block;  
+}
+#dropdown{
+    position: relative;
+}
+#list{
+    list-style-type: none;
+    padding: 0;
+    background-color: magenta;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 200%;
+    display: none;
+}
+#dropdown:hover #list{
+    display: block;
+}
+#viva{
+    position: relative;
+}
+#vi{
+    list-style-type: none;
+    padding: 0;
+    background-color: mediumvioletred;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 200%;
+    display: none;
+}
+#viva:hover #vi{
+    display: block;
+}
+
+
+
+
